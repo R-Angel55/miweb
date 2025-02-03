@@ -1,0 +1,157 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.images {
+  position: fixed; 
+  bottom: 130px; 
+  left: 70px; 
+  width: 100px; 
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.titulo{
+  bottom: 100px;
+}
+.palabra2{
+  position: fixed;
+  bottom: 20px; /* Distancia desde la parte inferior */
+  left: 220px; /* Distancia desde la parte derecha */
+  width: 100px; /* Tamaño ajustable */
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 4em #ff3f3faa) drop-shadow(0 0 2em #ff3f3faa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 4em #ff3f3faa) drop-shadow(0 0 2em #ff3f3faa);
+}
+
+.Imgrabit{
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos estén en columna */
+  align-items: center; /* Centra todo horizontalmente */
+  margin-top: 20px;
+}
+.text3{
+  display: inline;
+  color: #500000;
+}
+.sticker{
+  position: fixed; 
+  bottom: 150px; 
+  right: 150px; 
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.rabbit {
+  width: 150px; 
+  height: auto; 
+  display: block; 
+  margin: 50px auto;
+  border-radius: 20px; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.rabbit:hover {
+  transform: scale(1.1) rotate(5deg); 
+}
+.fondo{
+  /*background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;*/
+  position:-ms-page; 
+  margin: 0%;
+  border: 0cm;
+  padding: 0%;
+  top: 0;
+  left:0%;
+  right:auto;
+  width: 100vw;
+  height: 100vh;
+  background-size:cover;;
+  background-position:left;
+  
+  z-index: -1;
+}
+.form-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.question {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.yes-button, .no-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.yes-button {
+  background-color: #ff69b4;
+  color: white;
+  border-radius: 8px;
+}
+
+.yes-button:hover {
+  background-color: #ff1493;
+}
+
+.no-button {
+  background-color: #808080;
+  color: white;
+  border-radius: 8px;
+}
+
+.response {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ff1493;
+  margin-top: 20px;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  font: 1em sans-serif;
+  box-shadow: #8a0606;
+  color: #500000;
+}
