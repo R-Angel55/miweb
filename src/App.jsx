@@ -38,8 +38,8 @@ function App() {
     setAnswer("💖 ¡Sabía que dirías que sí! Te amo 💖");
   };
   const handleNoHover = () => {
-    const newTop = Math.random() * 50 + "%";
-    const newLeft = Math.random() * 50 + "%";
+    const newTop = Math.random() * 60 + "%";
+    const newLeft = Math.random() * 60 + "%";
     setNoButtonPosition({ top: newTop, left: newLeft });
   };
  
